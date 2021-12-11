@@ -1,4 +1,4 @@
-package kz.zhelezyaka.appuser;
+package kz.zhelezyaka.loginandregistrationbackend.appuser;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

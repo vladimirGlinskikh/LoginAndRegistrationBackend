@@ -1,4 +1,4 @@
-package kz.zhelezyaka.registration;
+package kz.zhelezyaka.loginandregistrationbackend.registration;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

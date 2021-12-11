@@ -1,6 +1,6 @@
-package kz.zhelezyaka.security.config;
+package kz.zhelezyaka.loginandregistrationbackend.security.config;
 
-import kz.zhelezyaka.appuser.AppUserService;
+import kz.zhelezyaka.loginandregistrationbackend.appuser.AppUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

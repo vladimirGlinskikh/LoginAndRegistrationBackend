@@ -1,4 +1,4 @@
-package kz.zhelezyaka.security;
+package kz.zhelezyaka.loginandregistrationbackend.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
