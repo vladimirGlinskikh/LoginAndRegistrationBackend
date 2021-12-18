@@ -34,8 +34,13 @@ public class AppUserService implements UserDetailsService {
                 .findByEmail(appUser.getEmail())
                 .isPresent();
         if (userExists) {
+            // TODO check of attributes are the same and
+            // TODO if email not confirmed send confirmation email.
             throw new IllegalStateException("email already taken");
         }
+
+
+
         final String encodedPassword = bCryptPasswordEncoder
                 .encode(appUser.getPassword());
         appUser.setPassword(encodedPassword);
